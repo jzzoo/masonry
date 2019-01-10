@@ -3,7 +3,7 @@ PHP extensions written using zephir-lang
 
 > Laravel - like helper functions are provided .
 
-> You can add extension=./lib/masonry. So directly to your own php.ini, notice that it is php-7.2 .
+> You can add extension=./lib/masonry.so directly to your own php.ini, notice that it is php-7.2 .
 
 * 开发环境
 ```
