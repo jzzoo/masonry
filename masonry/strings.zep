@@ -155,8 +155,8 @@ class Strings
         {
             throw new \Exception("The input parameter is not valid -(str_finish).");
         }
-        var _end = str[ ( strlen(str) - 1 ) ];
-        if _end == aim {
+        var _pos = strripos( str , aim );
+        if _pos !== false {
             return str;
         }
         return str . aim;
