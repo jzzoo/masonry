@@ -1,6 +1,10 @@
 # masonry
 PHP extensions written using zephir-lang
 
+> Laravel - like helper functions are provided .
+
+> You can add extension=masonry. So directly to your own php.ini, notice that it is php-7.2 .
+
 * 开发环境
 ```
   1. CentOS Linux release v7.6.1810 (Core)
@@ -46,3 +50,5 @@ PHP extensions written using zephir-lang
   1. zephir fullclean
   2. zephir builddev
 ```
+
+> In summary, this is a toy .
