@@ -102,7 +102,7 @@ class Arrays
             return [];
         }
         var keys = array_rand( arr , number );
-        var key, value, results = [];
+        var value, results = [];
         for value in keys {
             let results[] = arr[value];
         }

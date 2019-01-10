@@ -2,6 +2,12 @@ namespace Masonry;
 
 class Tools
 {
+    /**
+     * Returns the number of elements in an array/object.
+     *
+     * @param  array|object  data
+     * @return int
+     */
     public function count(var data) {
         if is_object(data) || is_array(data) {
             return count(data);
@@ -10,6 +16,13 @@ class Tools
         }
     }
 
+    /**
+     * Get environment variables.
+     *
+     * @param  string key
+     * @param  string _default
+     * @return mixed
+     */
     public function env(var key, var _default = null) {
         var value = getenv(key);
         if value === false {

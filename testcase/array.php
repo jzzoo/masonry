@@ -67,7 +67,7 @@ $re = Masonry\Arrays::last([1,2,3,4,5,6]);
 var_dump($re);
 $re = Masonry\Arrays::last(['a','b','c']);
 var_dump($re);
-$re = Masonry\Arrays::last([1,2,3,4,5,6],3);
+$re = Masonry\Arrays::last([1,2,3,4,5,6]);
 var_dump($re);
 try {
 $re = Masonry\Arrays::last([]);
