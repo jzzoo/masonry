@@ -108,4 +108,26 @@ class Arrays
         }
         return results;
     }
+
+    /**
+     * Get the first element of an array. Useful for method chaining.
+     *
+     * @param  array  arr
+     * @return mixed
+     */
+    public static function head(var arr)
+    {
+        return reset( arr );
+    }
+
+    /**
+     * Get the last element from an array.
+     *
+     * @param  array  arr
+     * @return mixed
+     */
+    public static function last(var arr)
+    {
+        return end( arr );
+    }
 }

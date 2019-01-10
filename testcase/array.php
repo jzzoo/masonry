@@ -41,3 +41,43 @@ var_dump($re);
 }catch (\Exception $e) {
    var_dump($e->getMessage());
 }
+
+echo "\n---head--\n";
+$re = Masonry\Arrays::head([1,2,3,4,5,6]);
+var_dump($re);
+$re = Masonry\Arrays::head(['a','b','c']);
+var_dump($re);
+$re = Masonry\Arrays::head([1,2,3,4,5,6]);
+var_dump($re);
+try {
+$re = Masonry\Arrays::head();
+var_dump($re);
+}catch (\Exception $e) {
+   var_dump($e->getMessage());
+}
+try {
+$re = Masonry\Arrays::head([1,2,3,4,5,6],'a');
+var_dump($re);
+}catch (\Exception $e) {
+   var_dump($e->getMessage());
+}
+
+echo "\n---last--\n";
+$re = Masonry\Arrays::last([1,2,3,4,5,6]);
+var_dump($re);
+$re = Masonry\Arrays::last(['a','b','c']);
+var_dump($re);
+$re = Masonry\Arrays::last([1,2,3,4,5,6],3);
+var_dump($re);
+try {
+$re = Masonry\Arrays::last([]);
+var_dump($re);
+}catch (\Exception $e) {
+   var_dump($e->getMessage());
+}
+try {
+$re = Masonry\Arrays::last([1,2,3,4,5,6],'a');
+var_dump($re);
+}catch (\Exception $e) {
+   var_dump($e->getMessage());
+}
