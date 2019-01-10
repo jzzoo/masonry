@@ -1,0 +1,11 @@
+{
+    "namespace": "masonry",
+    "name": "masonry",
+    "description": "",
+    "author": "Mason.Mr",
+    "version": "1.0.1",
+    "verbose": false,
+    "requires": {
+        "extensions": []
+    }
+}

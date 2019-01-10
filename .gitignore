@@ -1,0 +1,6 @@
+.temp
+*.swp
+*.bak
+.DS_Store
+.idea
+
